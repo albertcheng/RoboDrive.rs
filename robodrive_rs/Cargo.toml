@@ -1,0 +1,16 @@
+[package]
+name = "robodrive_rs"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+
+[workspace]
+members = [
+    "core",
+    "sensor",
+    "navigation",
+    "control",
+    "perception",
+    "simulation"
+]
