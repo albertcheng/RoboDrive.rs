@@ -1,6 +1,4 @@
 # RoboDrive.rs
-RoboDrive.rs is an open-source framework for building self-driving vehicles, autonomous robots, and smart systems, written in Rust. 
-
 RoboDrive.rs is an open-source framework for building self-driving vehicles, autonomous robots, and smart systems, written in Rust. It offers a modular, high-performance, and safe environment for robotics development, focusing on real-time control, sensor integration, and path planning.
 
 Whether you’re working on a self-driving car, robotic lawn mower, delivery drone, or indoor navigation robot, RoboDrive.rs provides the essential building blocks to accelerate your project.
@@ -12,11 +10,11 @@ Sensor Fusion for LiDAR, GPS, IMU, and Camera data
 
 Path Planning and Localization (A*, SLAM, and more)
 
-Real-time Control with hardware abstraction and PID controllers
+Real-time Control with inverse kinematics of robotic arm. 
 
-Computer Vision and Object Detection using OpenCV and deep learning integration
+Computer Vision and Object Detection using YOLO
 
-Simulation Support for testing in virtual environments (Gazebo, Unity)
+Simulation Support for testing in virtual environments
 
 High Safety and Performance powered by Rust’s memory safety and concurrency
 
@@ -51,6 +49,4 @@ Autonomous Lawn Mowers
 
 Delivery Drones
 
-Warehouse Robots
-
-Smart Home Robots
+Smart Robots
