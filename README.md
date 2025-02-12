@@ -30,17 +30,19 @@ Reliability: Build robotics systems that won’t crash in critical situations.
 🏗 Architecture Overview
 RoboDrive.rs is built on a modular design, with each component as a separate crate:
 
-robotics_core: Core services like message passing, logging, and configuration.
+core: Core services like message passing, logging, and configuration.
 
-robotics_sensor: Drivers for sensors (LiDAR, GPS, IMU, Camera) with sensor fusion.
+device: Devices such as car, drone, lawn mower, etc. 
 
-robotics_navigation: Path planning, localization, and SLAM support.
+sensor: Drivers for sensors (LiDAR, GPS, IMU, Camera) with sensor fusion.
 
-robotics_control: Motor control, PID controllers, and hardware abstraction.
+navigation: Path planning, localization, and SLAM support.
 
-robotics_perception: Computer vision and deep learning inference for object detection.
+control: Motor control, PID controllers, and hardware abstraction.
 
-robotics_simulation: Virtual environment integration for fast testing and iteration.
+perception: Computer vision and deep learning inference for object detection.
+
+simulation: Virtual environment integration for fast testing and iteration.
 
 🎯 Use Cases
 Self-Driving Vehicles
