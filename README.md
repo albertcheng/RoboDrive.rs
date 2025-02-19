@@ -4,11 +4,10 @@ RoboDrive.rs is an open-source framework for building self-driving vehicles, aut
 Whether you’re working on a self-driving car, robotic lawn mower, delivery drone, or indoor navigation robot, RoboDrive.rs provides the essential building blocks to accelerate your project.
 
 ✨ Features
-Core Message Bus for inter-module communication
 
-Sensor Fusion for LiDAR, GPS, IMU, and Camera data
+Sensor Fusion for GPS and Camera data
 
-Path Planning and Localization (A*, SLAM, and more)
+Path Planning and Localization (SLAM and more)
 
 Real-time Control with inverse kinematics of robotic arm. 
 
@@ -32,7 +31,7 @@ core: Core services like message passing, logging, and configuration.
 
 device: Devices such as car, drone, lawn mower, etc. 
 
-sensor: Drivers for sensors (LiDAR, GPS, IMU, Camera) with sensor fusion.
+sensor: Drivers for sensors (GPS, Camera) with sensor fusion.
 
 navigation: Path planning, localization, and SLAM support.
 
